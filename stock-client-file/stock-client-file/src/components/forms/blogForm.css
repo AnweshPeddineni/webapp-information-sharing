@@ -1,0 +1,14 @@
+.upload-image-label input {
+  display: none;
+}
+
+.upload-image-label {
+  width: 100%;
+  display: flex;
+}
+.upload-image-label img {
+  width: 100%;
+  height: auto;
+  min-height: 200px;
+  background-color: #fff;
+}

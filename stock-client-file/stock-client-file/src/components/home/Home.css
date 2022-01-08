@@ -1,0 +1,117 @@
+.hero-button-dark,
+.paybtn {
+  padding: 10px 44px;
+  font-size: 18px;
+  font-weight: 600;
+  background: rgb(61, 133, 198);
+  color: #fff;
+  border-radius: 25px;
+}
+.outlinbtn {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  font-size: 15px;
+}
+.ft13 {
+  font-size: 13px;
+}
+.paybtn {
+  padding: 10px 30px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+/************ My cards ****************/
+.hero-section {
+  background-color: #f4faff;
+}
+.mycards {
+  /* background-image: url(../../images/bgcoin.png);
+  background-repeat: no-repeat;
+  background-size: 10%;
+  background-position: 90% center; */
+  box-shadow: 0 20px 25px 6px rgb(0 0 0 / 7%), 0 10px 10px -5px rgb(0 0 0 / 5%) !important;
+  transition: 0.3s all;
+  text-align: center;
+}
+.mycards:hover {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.07),
+    0 2px 4px -1px rgba(0, 0, 0, 0.05) !important;
+}
+
+.services .card {
+  padding: 15px 20px;
+}
+.services h2 {
+  font-size: 45px;
+}
+.services p {
+  font-size: 16px;
+}
+.services .card .card-title {
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.services .card .card-subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+.services .card .discount-pricing {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.services .card .text-red {
+  color: rgb(153, 0, 0);
+}
+.services .main-price {
+  font-size: 30px;
+  margin: 0 0 10px;
+  font-weight: 600;
+}
+
+.inclusions img {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+.inclusions ul li {
+  list-style: none;
+  position: relative;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.inclusions ul li::after {
+  content: "";
+  position: absolute;
+  top: 17%;
+  left: -35px;
+  width: 20px;
+  height: 27px;
+  background-size: 100%;
+}
+.inclusions .inclusions-list ul li::after {
+  background-image: url(../../images/tick.png);
+  background-repeat: no-repeat;
+}
+.inclusions .exclusions-list ul li::after {
+  background-image: url(../../images/cross.png);
+  background-repeat: no-repeat;
+}
+@media (max-width: 768px) {
+  .hero-section img {
+    margin-top: 30px;
+  }
+  .section_padding {
+    padding: 2em 0;
+  }
+  .services .card:nth-last-child(1) {
+    margin-top: 10px;
+  }
+}
+.why-subscribe p{
+  height: 50px;
+}

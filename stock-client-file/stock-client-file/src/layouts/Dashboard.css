@@ -1,0 +1,32 @@
+.ant-layout.site-layout {
+  min-height: 100vh;
+}
+.ant-menu-inline .ant-menu-item {
+  position: relative;
+  align-items: center;
+  font-size: 12px;
+  display: flex;
+}
+.ant-layout-header {
+  background-color: #fff !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ant-layout-has-sider .navbar {
+  padding: 0 !important;
+}
+.ant-menu-item-only-child {
+  padding-left: 20px !important;
+}
+.nav-link {
+  text-transform: capitalize !important;
+}
+@media screen and (max-width: 767px) {
+  .ant-layout-sider.sidebar {
+    position: fixed;
+    left: 0;
+    z-index: 3999;
+    box-shadow: 4px 0 0px -1px #d8d4d469;
+  }
+}

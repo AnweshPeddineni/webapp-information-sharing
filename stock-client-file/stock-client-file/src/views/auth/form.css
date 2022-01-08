@@ -1,0 +1,19 @@
+.login-signupform form label {
+  font-size: 18px;
+  font-weight: 600;
+}
+.login-signupform form input,
+.login-signupform form select {
+  border: 1px solid #00000070;
+  background-image: none !important;
+  padding: 10px;
+  border-radius: 10px;
+}
+.login-signupform form input:focus,
+.login-signupform form select:focus {
+  border-color: #000 !important;
+}
+.login-signupform .form-group + .form-group {
+  margin-top: 0 !important
+;
+}
